@@ -38,10 +38,10 @@ public:
                             if (y < 0 || y >= col) {
                                 continue;
                             }
-                            int cost = grid[i][x];
-                            if (x != y) {
-                                cost += grid[i][y];
+                            if (x >= y) {
+                                continue;
                             }
+                            int cost = grid[i][x] + grid[i][y];
                             dp[i][x][y] = max(dp[i][x][y], cost + dp[i-1][j][k]);
                         }
                     }
