@@ -1,7 +1,9 @@
 pub mod binary_tree_zigzag_level_order_traversal_103;
 pub mod combinations_77;
+pub mod distinct_subsequences_115;
 pub mod gray_code_89;
 pub mod group_anagrams_49;
+pub mod lru_cache_146;
 pub mod permutations_46;
 pub mod permutations_ii_47;
 pub mod pow_50;
