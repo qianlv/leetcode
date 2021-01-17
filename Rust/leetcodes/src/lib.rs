@@ -1,6 +1,7 @@
 pub mod binary_prefix_divisible_by_5;
 pub mod binary_tree_zigzag_level_order_traversal_103;
 pub mod combinations_77;
+pub mod compare_version_numbers_165;
 pub mod distinct_subsequences_115;
 pub mod evaluate_reverse_polish_notation_150;
 pub mod find_peak_element_162;
