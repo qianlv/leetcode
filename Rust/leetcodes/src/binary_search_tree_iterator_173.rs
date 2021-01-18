@@ -48,8 +48,8 @@ impl BSTIterator {
         ret
     }
 
-    fn push_left(&mut self, mut root: &Rc<RefCell<TreeNode>>) {
-        if let Some(ref left) = root.borrow().left {
+    fn push_left(&mut self, root: &Rc<RefCell<TreeNode>>) {
+        while let Some(ref left) = root.borrow().left {
             self.stack.push(Some(left.clone()));
             self.push_left(left);
         }
