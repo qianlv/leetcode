@@ -1,4 +1,5 @@
 pub mod binary_prefix_divisible_by_5;
+pub mod binary_search_tree_iterator_173;
 pub mod binary_tree_zigzag_level_order_traversal_103;
 pub mod combinations_77;
 pub mod compare_version_numbers_165;
