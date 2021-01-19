@@ -1,5 +1,6 @@
+#![allow(dead_code)]
 // Definition for a binary tree node.
-use std::cell::{Ref, RefCell};
+use std::cell::RefCell;
 use std::rc::Rc;
 
 #[derive(Debug, PartialEq, Eq)]
