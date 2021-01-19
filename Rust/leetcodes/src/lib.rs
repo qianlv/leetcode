@@ -1,6 +1,7 @@
 mod binary_prefix_divisible_by_5;
 mod binary_search_tree_iterator_173;
 mod binary_tree_zigzag_level_order_traversal_103;
+mod bitwise_and_of_numbers_range_201;
 mod combinations_77;
 mod compare_version_numbers_165;
 mod distinct_subsequences_115;
