@@ -11,6 +11,8 @@ mod gray_code_89;
 mod group_anagrams_49;
 mod house_robber_198;
 mod lru_cache_146;
+mod minimum_size_subarray_sum_209_ologn;
+mod minimum_size_subarray_sum_209_on;
 mod permutations_46;
 mod permutations_ii_47;
 mod pow_50;
