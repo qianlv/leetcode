@@ -57,9 +57,7 @@ impl WordDictionary {
         for (i, ch) in word.iter().enumerate() {
             if ch == &b'.' {
                 for index in 0..26usize {
-                    let next = root.borrow().childs.borrow()[index]
-                        .as_ref()
-                        .map(|x| x.clone());
+                    let next = root.borrow().childs.borrow()[index].as_ref().cloned();
                     if let Some(next) = next {
                         if Self::search_helper(next, &word[i + 1..]) {
                             return true;
@@ -71,9 +69,7 @@ impl WordDictionary {
                 return false;
             } else {
                 let index = (ch - b'a') as usize;
-                let next = root.borrow().childs.borrow()[index]
-                    .as_ref()
-                    .map(|x| x.clone());
+                let next = root.borrow().childs.borrow()[index].as_ref().cloned();
                 if let Some(next) = next {
                     root = next;
                 } else {

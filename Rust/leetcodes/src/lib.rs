@@ -4,6 +4,7 @@ mod binary_tree_zigzag_level_order_traversal_103;
 mod bitwise_and_of_numbers_range_201;
 mod combinations_77;
 mod compare_version_numbers_165;
+mod design_add_and_search_words_data_strucure_211;
 mod distinct_subsequences_115;
 mod evaluate_reverse_polish_notation_150;
 mod find_peak_element_162;
