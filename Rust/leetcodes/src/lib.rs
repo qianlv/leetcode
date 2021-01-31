@@ -23,6 +23,7 @@ mod repeated_dna_sequences_187;
 mod reverse_words_in_a_string_151;
 mod simplify_path_71;
 mod word_search_79;
+mod word_search_ii_212;
 
 #[cfg(test)]
 mod tests {
