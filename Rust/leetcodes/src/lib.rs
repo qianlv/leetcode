@@ -11,6 +11,7 @@ mod find_peak_element_162;
 mod gray_code_89;
 mod group_anagrams_49;
 mod house_robber_198;
+mod house_robber_ii_213;
 mod lowest_common_ancestor_of_a_binary_tree_236;
 mod lru_cache_146;
 mod minimum_size_subarray_sum_209_ologn;
