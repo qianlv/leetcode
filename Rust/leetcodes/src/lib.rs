@@ -18,6 +18,7 @@ mod lowest_common_ancestor_of_a_binary_tree_236;
 mod lru_cache_146;
 mod minimum_size_subarray_sum_209_ologn;
 mod minimum_size_subarray_sum_209_on;
+mod perfect_squares_279;
 mod permutations_46;
 mod permutations_ii_47;
 mod pow_50;
