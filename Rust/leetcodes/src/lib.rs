@@ -23,7 +23,9 @@ mod pow_50;
 mod remove_duplicates_from_sorted_array_ii_80;
 mod repeated_dna_sequences_187;
 mod reverse_words_in_a_string_151;
+mod shortest_palindrome_214;
 mod simplify_path_71;
+mod ugly_number_ii_264;
 mod word_search_79;
 mod word_search_ii_212;
 
