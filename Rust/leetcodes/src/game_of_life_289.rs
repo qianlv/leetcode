@@ -4,7 +4,7 @@ struct Solution;
 
 impl Solution {
     pub fn game_of_life(board: &mut Vec<Vec<i32>>) {
-        let mut counter = 0;
+        let mut counter: i32;
         for i in 0..board.len() {
             for j in 0..board[i].len() {
                 counter = 0;
