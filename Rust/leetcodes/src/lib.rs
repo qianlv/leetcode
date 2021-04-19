@@ -9,6 +9,7 @@ mod different_ways_add_parentheses_241;
 mod distinct_subsequences_115;
 mod evaluate_reverse_polish_notation_150;
 mod find_peak_element_162;
+mod game_of_life_289;
 mod gray_code_89;
 mod group_anagrams_49;
 mod house_robber_198;
