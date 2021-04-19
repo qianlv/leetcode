@@ -16,6 +16,7 @@ mod group_anagrams_49;
 mod house_robber_198;
 mod house_robber_ii_213;
 mod house_robber_iii_337;
+mod longest_increasing_subsequence_300;
 mod lowest_common_ancestor_of_a_binary_tree_236;
 mod lru_cache_146;
 mod minimum_size_subarray_sum_209_ologn;
