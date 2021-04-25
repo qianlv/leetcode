@@ -25,6 +25,7 @@ mod perfect_squares_279;
 mod permutations_46;
 mod permutations_ii_47;
 mod pow_50;
+mod range_sum_query_2d_304;
 mod remove_duplicates_from_sorted_array_ii_80;
 mod repeated_dna_sequences_187;
 mod reverse_words_in_a_string_151;
