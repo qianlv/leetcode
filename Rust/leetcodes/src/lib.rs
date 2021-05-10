@@ -5,6 +5,7 @@ mod bitwise_and_of_numbers_range_201;
 mod bulls_and_cows_299;
 mod combinations_77;
 mod compare_version_numbers_165;
+mod counting_bits_338;
 mod design_add_and_search_words_data_strucure_211;
 mod different_ways_add_parentheses_241;
 mod distinct_subsequences_115;
