@@ -11,6 +11,7 @@ mod design_add_and_search_words_data_strucure_211;
 mod different_ways_add_parentheses_241;
 mod distinct_subsequences_115;
 mod evaluate_reverse_polish_notation_150;
+mod find_k_pairs_with_smallest_sums_373;
 mod find_peak_element_162;
 mod game_of_life_289;
 mod gray_code_89;
