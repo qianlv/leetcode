@@ -1,4 +1,5 @@
 #![allow(dead_code)]
+
 struct Solution;
 
 use std::cmp::Ordering;
@@ -60,14 +61,10 @@ impl Solution {
         }
         return *uglys.last().unwrap();
     }
-
-    pub fn nth_ugly_number(n: i32) -> i32 {
-        return Solution::nth_super_ugly_number(n, vec![2, 3, 5]);
-    }
 }
 
 #[test]
-fn nth_ugly_number_test() {
-    assert_eq!(Solution::nth_ugly_number(10), 12);
-    assert_eq!(Solution::nth_ugly_number(1407), 536870912);
+fn super_ungly_number_313_test() {
+    assert_eq!(Solution::nth_super_ugly_number(12, vec![2, 7, 13, 19]), 32);
+    assert_eq!(Solution::nth_super_ugly_number(1, vec![2, 3, 5]), 1);
 }
