@@ -131,19 +131,18 @@ class Solution {
         return result;
     }
 };
-
-// int main(int argc, const char **argv) {
-//   Solution solution;
-//   std::vector<std::string> wordList = {"hot", "dot", "dog",
-//                                        "lot", "log", "cog"};
-//   // std::vector<std::string> wordList = {"hot", "dot", "dog", "lot", "log"};
-//   auto result = solution.findLadders("hit", "cog", wordList);
-//   printf("result size: %ld\n", result.size());
-//   for (auto &path : result) {
-//     for (auto &word : path) {
-//       printf("%s ", word.c_str());
-//     }
-//     printf("\n");
-//   }
-// }
 // @lc code=end
+
+int main(int argc, const char **argv) {
+    Solution solution;
+    std::vector<std::string> wordList = {"hot", "dot", "dog", "lot", "log", "cog"};
+    // std::vector<std::string> wordList = {"hot", "dot", "dog", "lot", "log"};
+    auto result = solution.findLadders("hit", "cog", wordList);
+    printf("result size: %ld\n", result.size());
+    for (auto &path : result) {
+        for (auto &word : path) {
+            printf("%s ", word.c_str());
+        }
+        printf("\n");
+    }
+}

@@ -6,6 +6,7 @@
 
 // @lc code=start
 #include <cstdint>
+#include <iostream>
 #include <string>
 #include <unordered_map>
 
@@ -68,9 +69,10 @@ class Solution {
     }
 };
 
-// int main(int argc, const char **argv) {
-//   Solution sol;
-//   std::string ans = sol.fractionToDecimal(-2147483648, 1);
-//   std::cout << ans << std::endl;
-// }
 // @lc code=end
+
+int main(int argc, const char **argv) {
+    Solution sol;
+    std::string ans = sol.fractionToDecimal(-2147483648, 1);
+    std::cout << ans << std::endl;
+}
