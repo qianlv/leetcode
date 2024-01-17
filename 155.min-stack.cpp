@@ -7,30 +7,30 @@
 // @lc code=start
 #include <vector>
 class MinStack {
-private:
-  std::vector<int> stack;
-  std::vector<int> minVals;
+  private:
+    std::vector<int> stack;
+    std::vector<int> minVals;
 
-public:
-  MinStack() {}
+  public:
+    MinStack() {}
 
-  void push(int val) {
-    stack.push_back(val);
-    if (minVals.empty() || val <= minVals.back()) {
-      minVals.push_back(val);
+    void push(int val) {
+        stack.push_back(val);
+        if (minVals.empty() || val <= minVals.back()) {
+            minVals.push_back(val);
+        }
     }
-  }
 
-  void pop() {
-    if (stack.back() == minVals.back()) {
-      minVals.pop_back();
+    void pop() {
+        if (stack.back() == minVals.back()) {
+            minVals.pop_back();
+        }
+        stack.pop_back();
     }
-    stack.pop_back();
-  }
 
-  int top() { return stack.back(); }
+    int top() { return stack.back(); }
 
-  int getMin() { return minVals.back(); }
+    int getMin() { return minVals.back(); }
 };
 
 /**
