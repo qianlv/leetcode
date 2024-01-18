@@ -1,3 +1,4 @@
+# cspell: disable
 # https://clang.llvm.org/extra/clang-tidy/checks/list.html
 # https://hokein.github.io/clang-tools-tutorial/clang-tidy.html
 # modified from https://gist.github.com/flamewing/a5016645064afa086ac8afd98ea7f627#file-dot-clang-tidy
@@ -21,6 +22,7 @@ Checks: >
     -cppcoreguidelines-pro-type-union-access,
     -cppcoreguidelines-pro-bounds-pointer-arithmetic,
     -cppcoreguidelines-pro-type-vararg,
+    -cppcoreguidelines-owning-memory,
     google-build-using-namespace,
     google-explicit-constructor,
     google-global-names-in-headers,
