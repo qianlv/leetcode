@@ -38,7 +38,7 @@ mod repeated_dna_sequences_187;
 mod restore_ip_addresses_93;
 mod reverse_words_in_a_string_151;
 mod rotate_array_189;
-mod shortest_palindrome_214;
+// mod shortest_palindrome_214;
 mod simplify_path_71;
 mod subsets_ii_90;
 mod sum_of_two_integers_371;
